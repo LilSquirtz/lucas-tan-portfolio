@@ -1,19 +1,19 @@
-# Lucas Tan portfolio
+# Lucas Tan Portfolio
 
-Independent GitHub Pages copy of the published Lucas Tan engineering portfolio.
+Personal engineering portfolio showcasing selected projects, technical work and experience.
 
 ## Hosting
 
-This website is static HTML, CSS and JavaScript. No build step, backend, server-side rendering, API keys or package installation is required.
+This website is built with static HTML, CSS and JavaScript.
 
-In repository Settings → Pages, publish the `main` branch from `/ (root)`. The `.nojekyll` file serves the files directly. All local asset paths are relative, so the site works at a GitHub Pages project URL without rewriting paths.
-
-Navigation and information panels run within the homepage; section links use URL fragments. The supplied GLB, project images, fonts, animation libraries and résumé are hosted locally in `assets`.
+It can be deployed directly using GitHub Pages from the `main` branch.
 
 ## Local preview
 
-Run `python -m http.server 4175` from this directory and open `http://localhost:4175/`. Use an HTTP server rather than opening the HTML file directly so the interactive CAD module can load.
+Run:
 
-## Source preservation
+python -m http.server 4175
 
-The portfolio files were copied from the published version without design or content changes. GitHub hosting configuration and this README are separate from the website. The original ChatGPT-hosted site remains independently published and is not connected to this repository's deployments.
+Then open:
+
+http://localhost:4175/
